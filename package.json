@@ -1,0 +1,24 @@
+{
+  "name": "droidapi",
+  "version": "1.0.0",
+  "description": "droidapi",
+  "main": "a.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./bin/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "debug": "^4.3.4",
+    "express": "^4.18.2",
+    "mongoose": "^6.7.2",
+    "morgan": "^1.10.0"
+  },
+  "engines":{
+    "node":"16.x"
+  }
+}

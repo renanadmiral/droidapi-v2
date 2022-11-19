@@ -1,0 +1,13 @@
+post medicao =>
+{
+    "name": "",
+    "date" : "",
+    "data" : [
+        {   
+            "accelX" : 0,
+            "accelY" : 0,
+            "accelZ" : 0,
+            "time" : 0         
+        }
+    ]
+}
