@@ -31,7 +31,7 @@ router.get('/mensuration/:id', async function(request, response, next){
   }
 })
 
-router.post('/biel-viado', async function(request, response, next){
+router.post('/bielViado', async function(request, response, next){
   try{
     const responseBody = await Mensuration.create(request.body)
     
